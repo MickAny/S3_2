@@ -1,4 +1,4 @@
-package tests.annotations;
+package S3_2hw.annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -7,5 +7,5 @@ import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME) // Когда используется в процессе выполнения
 @Target(ElementType.METHOD) // Над чем ставится
-public @interface AfterEach {
+public @interface AfterAll {
 }

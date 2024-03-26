@@ -1,6 +1,6 @@
-package tests;
+package S3_2hw;
 
-import tests.annotations.*;
+import S3_2hw.annotations.*;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
@@ -16,7 +16,6 @@ public class TestRunner {
 
 
         for (Method testMethod : testClass.getDeclaredMethods()) {
-
             if(testMethod.getAnnotation(BeforeAll.class) != null){
                 try {
                     testMethod.invoke(testObj);

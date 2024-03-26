@@ -1,4 +1,4 @@
-package tests.annotations;
+package S3_2hw.annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
